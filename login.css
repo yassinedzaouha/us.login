@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(12, 12, 77);
+}
+
+.login {
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 35%;
+    margin-top: 100px;
+    width: 302px;
+    overflow: hidden;
+    padding: 40px;
+    background: none;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.sign {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+
+::placeholder {
+    color: white;
+}
+
+.Uname {
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+}
+
+.Pass {
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+
+}
+
+.create {
+    cursor: pointer;
+    color: white;
+    background-color: #2e75eb;
+    width: 170px;
+    height: 35px;
+    margin: 7px 0px 0px 65px;
+    border: none;
+    border-radius: 10px;
+}
+
+.pp {
+    color: white;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+a {
+    color: gray;
+}
